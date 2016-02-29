@@ -1,0 +1,39 @@
+.jumbotron{
+    background-color: #555555;
+    color:white;
+    border-bottom: solid 6px #222222;
+}
+body{
+    background-color: #ffffff;
+}
+.panel-heading{
+    background-color: #888888;
+    color:white;
+}
+.panel-body{
+    background-color: #999999;
+}
+.panel-footer{
+    background-color: #888888;
+    color:white;
+}
+ol{
+    list-style-type: none;
+    counter-reset: elementcounter;
+    padding-left: 0;
+}
+
+li:before{
+    content: "Year " counter(elementcounter) ". ";
+    counter-increment:elementcounter;
+    font-weight: bold;
+}
+.height{
+    min-height: 250px;
+    max-height: 455px;
+
+}
+.overflow{
+    overflow: scroll;
+    overflow-x: hidden;
+}
