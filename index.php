@@ -10,6 +10,7 @@
             <meta name="charset" content="UTF-8">
             <title>XAMPP Dev Page</title>
             <link rel="stylesheet" href="styles.css">
+            <link rel="shortcut icon" href="Xampp-Favicon.png">
         </head>
 
         <body>

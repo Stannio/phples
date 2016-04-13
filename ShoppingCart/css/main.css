@@ -1,0 +1,9 @@
+.header{
+    padding: 2rem 4rem;
+    background-size: cover  ;
+    background: url(http://www.androidguys.com/wp-content/uploads/2015/01/15-4-1.png) fixed center bottom;
+    color: #ffffff;
+}
+*{
+    font-family: Roboto, sans-serif;
+}
